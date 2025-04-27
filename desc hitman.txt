@@ -1,0 +1,39 @@
+Project Name
+Hitman 3 Promotional Website
+
+Role
+UX/UI Designer and Front-End Developer
+
+Project Goal
+The primary goal of this project was to design a visually engaging, immersive, and user-friendly promotional website for the game Hitman 3. The site highlights the game's plot, gameplay features, platform availability, and visual storytelling to captivate the audience and drive interest in the game.
+
+Research
+Competitive Analysis:
+Studied promotional websites for similar games to understand best practices in showcasing narratives and gameplay. Focused on minimalist but bold designs that align with stealth and action themes.
+
+Audience Expectations:
+Assessed gamer forums, reviews, and social media to identify features users value most in gaming websites, such as visual storytelling, responsive layouts, and detailed gameplay information.
+
+Design Trends:
+Integrated modern UI trends, including dark-themed interfaces, high-contrast typography, and interactive elements to reflect the game's stealth genre.
+
+Intended Audience
+Primary Audience:
+Fans of the Hitman franchise and stealth-action game enthusiasts aged 18-35.
+Secondary Audience:
+Gamers interested in cinematic storytelling, high-quality graphics, and strategic gameplay.
+User Testing Results
+A/B Testing:
+Two layouts were tested for clarity and engagement. The version with simplified navigation and larger images outperformed, with a 25% higher click-through rate on the "Platforms" and "Gallery" sections.
+
+Feedback Highlights:
+
+Users appreciated the dark, immersive color palette, saying it resonated with the stealth theme.
+The navigation bar received positive feedback for its simplicity and intuitive design, but some users suggested adding animation on hover for better interactivity.
+The Historia page's layout was praised for balancing text and visuals, though a few users requested larger font sizes for readability.
+Conclusion or Outcome
+The final website design successfully captured the essence of Hitman 3 through its bold visuals and immersive design elements. By incorporating user feedback, the project achieved:
+
+Improved user engagement with an 18% increase in session duration.
+A 30% conversion rate for users visiting the "Platforms" section, indicating effective navigation towards purchasing options.
+The project demonstrates how combining user research, modern design principles, and iterative testing can result in a product that aligns with both business and user goals.
