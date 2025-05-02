@@ -8,36 +8,43 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Andres Guerrero">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="parallax">
-        <nav>
+        <nav class="navbar">
             <div class="logo">Andres Guerrero</div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="/about/about.html">About</a></li>
-                <li><a href="/projects/projects.html">Projects</a>
-                    <ul>
-                        <li><a href="/projects/editorial/atrium/atrium.html">Atrium</a></li>
-                        <li><a href="/projects/editorial/beethoveen/beethoveen.html">Beethoven</a></li>
-                        <li><a href="/projects/editorial/chromatic/chromatic.html">Chromatic</a></li>
-                        <li><a href="/projects/editorial/especializado/especializado.html">Libro Especializado</a></li>
-                        <li><a href="/projects/editorial/kundera/kundera.html">Colección Kundera</a></li>
-                        <li><a href="/projects/editorial/thelead/thelead.html">Periodico The Lead</a></li>
-                        <li><a href="/projects/frontend/herencia/herencia.html">Herencia</a></li>
-                        <li><a href="/projects/frontend/hitman/hitman.html">Hitman III</a></li>
-                        <li><a href="/projects/frontend/migrantes/migrantes.html">APP Migrantes</a></li>
-                        <li><a href="/projects/frontend/semolina/semolina.html">Semolina</a></li>
-                        <li><a href="/projects/frontend/uniflex/uniflex.html">Uniflex</a></li>
-                    </ul>
-                
+
+                <li class="dropdown">
+                <a href="#">Editorial</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/projects/editorial/atrium/atrium.html">Atrium</a></li>
+                    <li><a href="/projects/editorial/beethoveen/beethoveen.html">Beethoven</a></li>
+                    <li><a href="/projects/editorial/chromatic/chromatic.html">Chromatic</a></li>
+                    <li><a href="/projects/editorial/especializado/especializado.html">Libro Especializado</a></li>
+                    <li><a href="/projects/editorial/kundera/kundera.html">Colección Kundera</a></li>
+                    <li><a href="/projects/editorial/thelead/thelead.html">Periódico The Lead</a></li>
+                    <li><a href="/projects/frontend/herencia/herencia.html">Herencia</a></li>
+                </ul>
                 </li>
+
+                <li class="dropdown">
+                <a href="#">Frontend</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/projects/frontend/hitman/hitman.html">Hitman III</a></li>
+                    <li><a href="/projects/frontend/migrantes/migrantes.html">APP Migrantes</a></li>
+                    <li><a href="/projects/frontend/semolina/semolina.html">Semolina</a></li>
+                    <li><a href="/projects/frontend/uniflex/uniflex.html">Uniflex</a></li>
+                </ul>
+                </li>
+
                 <li><a href="/services/services.html">Services</a></li>
-                <li><a href="/blog/blog.html">blog</a></li>
+                <li><a href="/blog/blog.html">Blog</a></li>
                 <li><a href="/contact/contact.html">Contact</a></li>
             </ul>
-        </nav>
+            </nav>
         <section class="hero glass">
             <h1>Diseños que Inspiran, Experiencias que Conectan.</h1>
             <p>Transformando ideas en soluciones visuales impactantes en UI y Diseño Editorial.</p>

@@ -1,3 +1,4 @@
+/* Reset and Fonts */
 *,
 *::before,
 *::after {
@@ -7,7 +8,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root {
     --black: #0b0b0bff;
@@ -15,5 +16,85 @@
     --orange-web: #fca311ff;
     --platinum: #e5e5e5ff;
     --white: #f9f9f9ff;
+    --mainfont: 'Cal Sans', sans-serif;
+    --secondaryfont: 'Lato', sans-serif;
 }
 
+/* Navbar Styling */
+.navbar {
+    background-color: var(--oxford-blue);
+    color: var(--white);
+    padding: 1rem;
+    font-family: var(--secondaryfont);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 40px;
+}
+
+.navbar .logo {
+    font-family: var(--mainfont);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    color: var(--orange-web);
+}
+
+.navbar a.active {
+    color: var(--orange-web);
+    font-weight: bold;
+}
+
+.nav-links li {
+    list-style: none;
+    position: relative;
+}
+
+/* Dropdown Styles */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--oxford-blue);
+    min-width: 200px;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: var(--white);
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--orange-web);
+    color: var(--oxford-blue);
+}
